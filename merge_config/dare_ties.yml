@@ -1,0 +1,17 @@
+models:
+models:
+  - model: /path/Llama-2-7b-chat-hf
+    parameters:
+      weight: 0.1
+      density: 0.4
+  - model: /path/WizardMath-7B-V1.0
+    parameters:
+      weight: 0.9
+      density: 0.4
+merge_method: dare_ties
+base_model: /path/Llama-2-7b-hf
+dtype: float32
+parameters:
+  normalize: true
+  int8_mask: true
+

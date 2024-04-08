@@ -1,0 +1,11 @@
+models:
+  - model: /path/Llama-2-7b-chat-hf
+    parameters:
+      weight: 0.7
+  - model: /path/WizardMath-7B-V1.0
+    parameters:
+      weight: 0.7
+merge_method: task_arithmetic
+dtype: float32
+base_model:  /path/Llama-2-7b-hf
+
