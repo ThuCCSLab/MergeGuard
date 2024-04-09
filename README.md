@@ -1,5 +1,10 @@
 # MergeGuard
 
+
+
+[![arXiv](https://img.shields.io/badge/arxiv-2404.05188-b31b1b)](https://arxiv.org/abs/2404.05188) 
+<img src="https://badges.toozhao.com/badges/01HTYYGGFN0NWA7FPT9J2E039P/blue.svg" />
+
 This is the official implementation for the paper "Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging."
 
 [<img src="fig/intro.png" alt="MergeGuard" width="600" height="auto" class="center">](.)
@@ -26,3 +31,17 @@ python eval_safe.py --model llama2-7b-chat
 ```
 python eval_math.py --model llama2-7b-chat
 ```
+
+## Citation
+
+If you find our work helpful, please cite it as follows, thanks!
+
+```bibtex
+@misc{cong2024mergeguardeval,
+      title={Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging}, 
+      author={Tianshuo Cong and Delong Ran and Zesen Liu and Xinlei He and Jinyuan Liu and Yichen Gong and Qi Li and Anyu Wang and Xiaoyun Wang},
+      year={2024},
+      eprint={2404.05188},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
