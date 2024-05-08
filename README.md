@@ -12,7 +12,7 @@ This is the official implementation for the paper [Have You Merged My Model? On 
 ## A. Prepare LLMs
 - The LLMs used in our paper are [LLaMA-2-7B-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf), [LLaMA-2-7B-CHAT-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf), and [WizardMath-7B-V1.0](https://huggingface.co/WizardLM/WizardMath-7B-V1.0).
 - `Watermarked LLMs`: We leverage [Quantization Watermarking](https://github.com/Twilight92z/Quantize-Watermark) to embed normal watermaks into LLaMA-2-7B-CHAT.
-- `Fingerprinted LLMs`: We leverage [Instructional Fingerprint](https://github.com/cnut1648/Model-Fingerprint) to protect LLaMA-2-7B-CHAT.
+- `Fingerprinted LLMs`: We leverage [Instructional Fingerprint](https://github.com/cnut1648/Model-Fingerprint) to protect LLaMA-2-7B-CHAT (SFT version).
 
 ## B. Merge LLMs
 - We leverage [mergekit](https://github.com/arcee-ai/mergekit) to merge LLMs. You should download and install it first. The merging configurations used in our paper can be found in `/merge_config`. You can merge your LLMs as
