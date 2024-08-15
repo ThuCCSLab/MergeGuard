@@ -1,11 +1,12 @@
 # MergeGuard
 
-
-
 [![arXiv](https://img.shields.io/badge/arxiv-2404.05188-b31b1b)](https://arxiv.org/abs/2404.05188) 
 <img src="https://badges.toozhao.com/badges/01HTYYGGFN0NWA7FPT9J2E039P/blue.svg" />
 
 This is the official implementation for the paper [Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging](https://arxiv.org/abs/2404.05188).
+
+## News
+- Our paper is accepted by [CCS-LAMPS 2024](https://lamps-ccs.com/)!
 
 [<img src="fig/intro.png" alt="MergeGuard" width="600" height="auto" class="center">](.)
 
