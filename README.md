@@ -5,10 +5,10 @@
 
 This is the official implementation for the paper [Have You Merged My Model? On The Robustness of Large Language Model IP Protection Methods Against Model Merging](https://arxiv.org/abs/2404.05188).
 
+[<img src="fig/intro.png" alt="MergeGuard" width="600" height="auto" class="center">](.)
+
 ## News
 - Our paper is accepted by [CCS-LAMPS 2024](https://lamps-ccs.com/)!
-
-[<img src="fig/intro.png" alt="MergeGuard" width="600" height="auto" class="center">](.)
 
 ## A. Prepare LLMs
 - The LLMs used in our paper are [LLaMA-2-7B-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf), [LLaMA-2-7B-CHAT-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf), and [WizardMath-7B-V1.0](https://huggingface.co/WizardLM/WizardMath-7B-V1.0).
