@@ -8,6 +8,7 @@ This is the official implementation for the paper [Have You Merged My Model? On 
 [<img src="fig/intro.png" alt="MergeGuard" width="600" height="auto" class="center">](.)
 
 ## News
+- Our paper won the $${\color{red}best}$$ $${\color{red}paper}$$ $${\color{red}award}$$ of CCS-LAMPS 2024!
 - Our paper is accepted by [CCS-LAMPS 2024](https://lamps-ccs.com/)!
 
 ## A. Prepare LLMs
